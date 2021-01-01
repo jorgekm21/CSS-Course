@@ -1,40 +1,7 @@
-/*  Etiquetas -> 0001
-    Clases y pseudoclases -> 0010
-    Id -> 0100
-    Etilos en linea -> 1000
-    !Important -> Gana a todo
-*/
-
-/* 
-    Cambia segun el peso de especifidad.
-    Se lee de arriba hacia abajo
-    Punto para clase y almohadilla para id
-*/
-
-/* 
-    No se recomienda usar Boostrap
-*/
-
-
-
-#parrafo{
-    color:blueviolet;
-}
-
-.parrafo{
-    color: red;
-}
-
-a{
-    /* Agarra el color de su elemento padre (Etiqueta HTML) */
-    color: inherit;
-}
-
-.parrafito{
-    color:black;
-}
-
-p{
-    /* Nunca usar !important */
-    color: green;
+.square{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    background: red;
 }
