@@ -1,0 +1,32 @@
+h1{
+    background-color: lightblue;
+    height: 150px;
+    width: 100px;
+}
+
+h2{
+    background-color: purple;
+    width: 50px;
+}
+
+a{
+    background: lime;
+    width: 500px;
+    /* Width no afecta a display: inline */
+}
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background: lime;
+    padding: 10px;
+    border: 10px solid palevioletred; /* Sus dimensiones cuentan para el tamaño total del elemento */
+    margin: 20px;
+    outline: 10px solid red; /* Sus dimensiones NO cuentan para el tamaño total del elemento */
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+}
